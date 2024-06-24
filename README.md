@@ -1,8 +1,8 @@
 # GRAVADOR DE NOTAS
 👨‍🏫PROJETO CRIADO PARA O CURSO DE ASSEMBLY.
 
-<img src="./IMAGENS/FOTO_1.png" align="center" width="400"> <br>
-<img src="./IMAGENS/FOTO_2.png" align="center" width="400"> <br>
+<img src="./IMAGENS/FOTO_01.png" align="center" width="400"> <br>
+<img src="./IMAGENS/FOTO_02.png" align="center" width="400"> <br>
 
 ## DESCRIÇÃO:
 Este programa em `Assembly x86_64` solicita ao usuário a entrada de valores de notas, de 00 a 10, e grava essas notas em um arquivo. O programa continua a solicitar e gravar notas até que o usuário insira o valor "20", momento em que o programa finaliza a operação de gravação e exibe uma mensagem de confirmação antes de terminar.
