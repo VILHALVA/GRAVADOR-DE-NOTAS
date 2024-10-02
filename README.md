@@ -15,17 +15,20 @@ Este programa em `Assembly x86_64` solicita ao usuário a entrada de valores de 
 5. **Encerramento do Programa:** Após exibir a mensagem de confirmação, o programa termina sua execução.
 
 ## COMO USAR?
-1. **Compilação e Execução:** Compile o código em um ambiente compatível com `x86_64 Assembly`. Você pode usar o NASM (Netwide Assembler) para compilar e o LD (GNU Linker) para ligar o código.
+1. **Compilação e Execução:** 
+    - Compile o código em um ambiente compatível com `x86_64 Assembly`. Você pode usar o NASM (Netwide Assembler) para compilar e o LD (GNU Linker) para ligar o código.
     ```sh
     nasm -f elf64 -o main.o main.asm
     ld -o main main.o
     ./main
     ```
+
 2. **Interação com o Usuário:** 
     - Ao executar o programa, uma mensagem será exibida solicitando que você insira uma nota no formato de 00 a 10.
     - Digite a nota desejada e pressione Enter.
     - As notas serão gravadas no arquivo "Nota".
     - Para terminar a entrada de notas, digite "20" e pressione Enter.
+    
 3. **Mensagens:**
     - "Entre com um valor da nota (formato 00 a 10 ou 20 para terminar):" – Instrução para o usuário inserir uma nota.
     - "Notas Gravadas!" – Confirmação exibida após cada nota ser gravada no arquivo.
